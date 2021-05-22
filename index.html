@@ -16,7 +16,9 @@
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-   <link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	
+
    
 </head>
 <body>
@@ -24,7 +26,7 @@
    <header>
       <nav>
          <div class="container">
-            <ul class="menu">
+            <ul class="menu menu_active">
                <li class="menu_item">
                   <a href="#" class="menu_link">Главная</a></li>
                <li class="menu_item">
@@ -39,21 +41,27 @@
                   <a href="#" class="menu_link">Оставить заявку</a></li>
             </ul>
          </div>
+				<div class="humburger humburger_active">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
       </nav>
 
       <div class="subheader">
          <div class="container">
             <div class="row">
-               <div class="col-md-4 offset-md-1">
+               <div class=" col-6 col-md-4 offset-md-1">
                   <a href="#" class="subheader_logo">
                      <img src="img/2-l33ayers.png" alt="logo"></a>
                      <div class="subheader_official">Официальный партнер Uber в Москве</div>
                </div>
-               <div class="col-md-2 offset-md-2">
+               <div class="xs-hidden col-md-3 offset-md-1 col-xl-2 offset-xl-2">
                   <div class="subheader_call">Звоните нам ежедневно</div>
                   <a href="tel:+84957970988" class="subheader_tel">8 495 797 09 88</a>
                </div>
-               <div class="col-md-2">
+               <div class="col-6 col-md-2">
+						<a href="tel:+84957970988" class="xs-visible subheader_tel">8 495 797 09 88</a>
                   <button class="subheader_btn">заказать звонок</button>
                </div>
             </div>
@@ -232,37 +240,37 @@
          <h2 class="working_start">мобильное приложение убер</h2>
          <div class="subtitle">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</div>
          <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6 col-xl-4">
                <div class="mobile_item mobile_item_1">
                   <div class="mobile_item_subtitle">оформление заказа одним касанием</div>
                   <div class="mobile_item_plus"></div>
                </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-xl-4">
                <div class="mobile_item mobile_item_2">
                   <div class="mobile_item_subtitle">надежная подача</div>
                   <div class="mobile_item_plus"></div>
                </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-xl-4">
                <div class="mobile_item mobile_item_3">
                   <div class="mobile_item_subtitle">прозрачные цены</div>
                   <div class="mobile_item_plus"></div>
                </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-xl-4">
                <div class="mobile_item mobile_item_4">
                   <div class="mobile_item_subtitle">безналичная оплата</div>
                   <div class="mobile_item_plus"></div>
                </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-xl-4">
                <div class="mobile_item mobile_item_5">
                   <div class="mobile_item_subtitle">обратная связь</div>
                   <div class="mobile_item_plus"></div>
                </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-xl-4">
                <div class="mobile_item mobile_item_6">
                   <div class="mobile_item_subtitle">разделить
                      стоимость поездки</div>
@@ -275,14 +283,14 @@
 
    <section class="car">
       <div class="container">
-         <div class="working_advantages">Возможности</div>
-         <h2 class="working_start">Выбор - отличная штука!</h2>
-         <div class="subtitle">Закажите автомобиль, который подходит вам по стилю и бюджету</div>
+         <div class="car_working_advantages working_advantages">Возможности</div>
+         <h2 class="car_working_start">Выбор - отличная штука!</h2>
+         <div class="car_subtitle">Закажите автомобиль, который подходит вам по стилю и бюджету</div>
          <div class="car_main">
             <img src="img/3-layers.png" alt="car" class="car_main_img">
          </div>
          <div class="car_footer">Машины на каждый день. <br>
-         Лучше, быстрее и дешевле, чем та кси</div>
+         Лучше, быстрее и дешевле, чем на такси</div>
       </div>
    </section>
 
@@ -299,9 +307,9 @@
 								<li>Ни каких взносов  0%!</li>
 								<li>Можем подключать удаленно без приезда в офис</li>
 								<li>ИП не требуется</li>
-								<li>Заказы распределяются без учета рейтинга 		ближай-<br>шим водителям</li>
+								<li>Заказы распределяются без учета рейтинга 		ближай<br>шим водителям</li>
 								<li>Работа только по безналичному расчету</li>
-								<li>Деньги перечисляем на карту водителю или наличны-<br>ми в офисе</li>
+								<li>Деньги перечисляем на карту водителю или наличны<br>ми в офисе</li>
 							</ul>
 							<div class="require_descr">
 								В день заработок составляет 7000-12000р + бонус 3000т рублей
@@ -354,7 +362,9 @@
 				<div class="sity_header">города</div>
 				<h2 class="sity_title">По всему миру</h2>
 				<div class="sity_main">Мы в вашем городе и по всему миру</div>
-				<div class="sity_footer">посмотреть все города</div>
+				<div class="sity_footer">
+					<a class="xz" href="#">посмотреть все города</a>
+				</div>
 		</div>
 	</section>
 
@@ -410,6 +420,6 @@
 		<div class="footer_lineblack"></div>
 
 	</footer>
-
+	<script src="js/script.js" ></script>
 </body>
 </html>
